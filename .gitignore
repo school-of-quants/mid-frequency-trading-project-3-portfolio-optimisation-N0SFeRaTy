@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Poetry / venv
+.venv/
+
+# Local Poetry config (machine-specific)
+poetry.toml
+
+# Data (generated; too large for GitHub)
+equity_project/data/raw/
+equity_project/data/processed/
+
+# Generated data-quality report
+equity_project/data/pony/data_quality_report.json
+
+# CatBoost training logs
+catboost_info/
+
+# Artifacts: keep metrics, ignore the rest
+# (metrics are small and useful to track)
+equity_project/artifacts/
+!equity_project/artifacts/metrics/
+!equity_project/artifacts/metrics/**
+

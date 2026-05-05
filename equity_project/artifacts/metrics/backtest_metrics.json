@@ -1,0 +1,61 @@
+{
+    "strategy_metrics": {
+        "total_return": 0.25993082940289636,
+        "annual_return": 0.0598316756794377,
+        "annual_volatility": 0.17755687179049,
+        "sharpe_ratio": 0.3369718956866771,
+        "max_drawdown": -0.21068542465592832,
+        "calmar_ratio": 0.2839858323239454
+    },
+    "benchmark_equal_weight_sp500_like_metrics": {
+        "total_return": 0.3312280755275192,
+        "annual_return": 0.07460566018026915,
+        "annual_volatility": 0.17207284847173207,
+        "sharpe_ratio": 0.43357020496191345,
+        "max_drawdown": -0.20952042374757418,
+        "calmar_ratio": 0.35607822304785186
+    },
+    "strategy_minus_benchmark_sharpe": -0.09659830927523633,
+    "ipc_mean": 0.29814183050556164,
+    "ipc_median": 0.2311452980381458,
+    "benchmark_ipc_mean": 0.2901905915882163,
+    "benchmark_ipc_median": 0.24782464793339617,
+    "vectorbt_stats": {
+        "Start": "2022-01-03 00:00:00",
+        "End": "2025-12-30 00:00:00",
+        "Period": "1002 days 00:00:00",
+        "Start Value": 20000000.0,
+        "End Value": 25198616.58805795,
+        "Total Return [%]": 25.993082940289753,
+        "Benchmark Return [%]": 34.621424743913586,
+        "Max Gross Exposure [%]": 100.0,
+        "Total Fees Paid": 119965.24604488772,
+        "Max Drawdown [%]": 21.06854246559283,
+        "Max Drawdown Duration": "486 days 00:00:00",
+        "Total Trades": 3280,
+        "Total Closed Trades": 3245,
+        "Total Open Trades": 35,
+        "Open Trade PnL": 3219355.9713456524,
+        "Win Rate [%]": 62.21879815100154,
+        "Best Trade [%]": 115.71135760655484,
+        "Worst Trade [%]": -50.36498801605326,
+        "Avg Winning Trade [%]": 21.20617940267524,
+        "Avg Losing Trade [%]": -12.83596045514627,
+        "Avg Winning Trade Duration": "562 days 21:03:50.014858840",
+        "Avg Losing Trade Duration": "373 days 20:41:30.048939644",
+        "Profit Factor": 1.9189626361152365,
+        "Expectancy": 832.5609285746681,
+        "Sharpe Ratio": 0.5005915549184804,
+        "Calmar Ratio": 0.4167871793184958,
+        "Omega Ratio": 1.075216459713415,
+        "Sortino Ratio": 0.7182477664587456
+    },
+    "strategy_parameters": {
+        "top_n": 35,
+        "min_score": 0.03,
+        "min_positions": 10,
+        "max_weight": 0.07,
+        "rebalance_every_n_days": 5,
+        "vol_feature_name": "vol22"
+    }
+}
